@@ -16,6 +16,7 @@ def run(bucket: str, folder: str, filenames: list):
 
     for filename in tqdm.tqdm(filenames):
         file_path = f"{folder}/{filename}"
+
         labels = detect_labels(file_path, bucket)
 
         basename = get_basename(filename)
