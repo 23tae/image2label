@@ -21,4 +21,6 @@ def get_filenames(bucket, folder) -> list:
     s3_bucket = s3.Bucket(bucket)
     files = [f.key.split(folder + "/")[1]
              for f in s3_bucket.objects.filter(Prefix=folder).all()]
+    if files[0] == '':
+        del files[0]
     return files
