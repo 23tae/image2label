@@ -2,11 +2,11 @@
 
 ## Overview
 
-[Amazon Rekognition](https://aws.amazon.com/rekognition/resources/)을 사용하여 이미지에서 레이블을 탐지하고 이를 CSV 파일 형식으로 저장하는 프로그램
+[Amazon Rekognition](https://aws.amazon.com/rekognition/)을 사용하여 이미지에서 레이블을 탐지하고 이를 CSV 파일 형식으로 저장하는 프로그램
 
 ## Functionality
 
-- Amazon S3 버킷에 연결하여 이미지를 찾는다.
+- [Amazon S3](https://aws.amazon.com/s3/) 버킷에 연결하여 이미지를 찾는다.
 - Rekognition을 사용하여 각 이미지에서 레이블을 감지한다.
 - "labels" 디렉토리 내에 각 이미지별 CSV 파일(레이블, 신뢰도 점수)을 저장한다.
 
