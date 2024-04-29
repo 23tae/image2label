@@ -11,7 +11,7 @@ def get_basename(file_path):
 
 def run(bucket: str, folder: str, filenames: list):
 
-    out_dir = os.path.join(os.getcwd(), 'labels')
+    out_dir = os.path.join(os.getcwd(), 'labels', folder)
     os.path.exists(out_dir) or os.makedirs(out_dir)
 
     for filename in tqdm.tqdm(filenames):
