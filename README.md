@@ -36,59 +36,8 @@
 
 ## Output example
 
-- **image1.jpg**
-  ![image1](/assets/images/image1.jpg)
-
-- **image1.csv**
-
-  ```
-  Label,Confidence
-  Nature,100.0
-  Outdoors,100.0
-  Pond,100.0
-  Water,100.0
-  Land,99.99502563476562
-  Scenery,98.19378662109375
-  Person,97.50032043457031
-  Bench,97.08635711669922
-  Swamp,96.99015808105469
-  Construction Crane,96.9571762084961
-  ```
-
-- **image2.jpg**
-  ![image2](/assets/images/image2.jpg)
-
-- **image2.csv**
-
-  ```
-  Label,Confidence
-  Indoors,99.99805450439453
-  Restaurant,99.99805450439453
-  Cafeteria,99.98191833496094
-  Cafe,99.89547729492188
-  Person,99.45893096923828
-  Chair,99.38227844238281
-  Cup,99.03710174560547
-  Lamp,98.38184356689453
-  Speaker,96.35136413574219
-  Plywood,95.61605072021484
-  ```
-
-- **image3.jpg**
-  ![image3](/assets/images/image3.jpg)
-
-- **image3.csv**
-
-  ```
-  Label,Confidence
-  City,99.97466278076172
-  Road,99.97466278076172
-  Street,99.97466278076172
-  Urban,99.97466278076172
-  Neighborhood,99.74077606201172
-  Truck,99.69886016845703
-  Person,99.37333679199219
-  Box,99.04634857177734
-  Car,98.82805633544922
-  Shoe,98.06107330322266
-  ```
+| 이미지                          | 결과                                                                 |
+|----------------------------------|---------------------------------------------------------------------|
+| ![image1](/assets/images/image1.jpg) | **Label,Confidence**<br>Nature,100.0<br>Outdoors,100.0<br>Pond,100.0<br>Water,100.0<br>Land,99.99502563476562<br>Scenery,98.19378662109375<br>Person,97.50032043457031<br>Bench,97.08635711669922<br>Swamp,96.99015808105469<br>Construction Crane,96.9571762084961 |
+| ![image2](/assets/images/image2.jpg) | **Label,Confidence**<br>Indoors,99.99805450439453<br>Restaurant,99.99805450439453<br>Cafeteria,99.98191833496094<br>Cafe,99.89547729492188<br>Person,99.45893096923828<br>Chair,99.38227844238281<br>Cup,99.03710174560547<br>Lamp,98.38184356689453<br>Speaker,96.35136413574219<br>Plywood,95.61605072021484 |
+| ![image3](/assets/images/image3.jpg) | **Label,Confidence**<br>City,99.97466278076172<br>Road,99.97466278076172<br>Street,99.97466278076172<br>Urban,99.97466278076172<br>Neighborhood,99.74077606201172<br>Truck,99.69886016845703<br>Person,99.37333679199219<br>Box,99.04634857177734<br>Car,98.82805633544922<br>Shoe,98.06107330322266 |
